@@ -1,0 +1,86 @@
+body {
+  background-color: #FCFBFA;
+}
+
+nav {
+  width: 25%;
+  position: fixed;
+  font-family: 'Inconsolata', monospace;
+  white-space: nowrap;
+  -webkit-transform-origin: center;
+  -webkit-transform:rotate(-90deg) translateX(-100%);
+  z-index: 10;
+}
+
+a {
+  color: #929DA6;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+a:hover {
+  color: #828C94;
+}
+
+a.pop {
+  font-family: 'Rubik Mono One', sans-serif;
+  color: #929DA6;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+main {
+  margin: 10% 0 0 25%;
+  white-space: normal;
+}
+
+img.preview {
+  width: 100%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  filter: saturate(1.2);
+}
+
+p {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
+  color: #929DA6;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Rubik Mono One', sans-serif;
+  color: #929DA6;
+  font-size: 25px;
+  text-decoration: none;
+  line-height: 0px;
+}
+h2 {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
+  size: 40px;
+  color: #929DA6;
+  font-size: 45px;
+  text-decoration: none;
+  line-height: 0px;
+}
+h3 {
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
+  font-size: 40px;
+  color: #929DA6;
+  font-size: 19px;
+  text-decoration: none;
+  line-height: 17px;
+}
+
+div.box3, div.box5 {
+  padding: 0 15% 0 0;
+}
+
+div.box7 {
+  padding: 0 15% 15% 0;
+}
