@@ -1,4 +1,4 @@
-body {
+/* body {
   background-color: #DEE2E2;
   margin: 0;
   padding: 0;
@@ -31,7 +31,7 @@ a {
   font-size: 17px;
 }
 
-a.prototype {
+a.acclink {
   font-family: "Karla", sans-serif;
   text-decoration: underline;
   letter-spacing: 1px;
@@ -57,10 +57,10 @@ h2 {
   color: #4F3A4B
 }
 
-img.bttm {
+img#btmaccordion {
   vertical-align: bottom;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 120px;
-}
+} */
