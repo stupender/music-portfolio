@@ -52,7 +52,7 @@ h2 {
   font-weight: 300;
   color: #FFFFFF;
   font-size: 34px;
-  line-height: 15px;
+  line-height: 40px;
   letter-spacing: 2.2px;
 
 }
@@ -62,7 +62,7 @@ p {
   font-family: 'Abel', sans-serif;
   font-size: 21px;
   line-height: 30px;
-  letter-spacing: 2.2px;
+  letter-spacing: 2px;
   font-weight: 200;
   text-align: justify;
 }
@@ -75,6 +75,40 @@ img.preview {
 }
 
 main {
-  margin: 10% 25% 0 33%;
+  margin: 10% 20% 0 33%;
   white-space: normal;
+}
+
+img.toplogo {
+  width: 50%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+img.typo {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  filter: saturate(1.2);
+}
+
+img.bttm {
+  vertical-align: bottom;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70px;
+}
+
+p.footer {
+  text-align: center;
+  color: #E79E8C;
+  font-size: 18px;
+}
+
+div.box12 {
+  margin: 100px 0 100px 0
 }

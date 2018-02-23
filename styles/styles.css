@@ -84,3 +84,11 @@ div.box3, div.box5 {
 div.box7 {
   padding: 0 15% 15% 0;
 }
+
+img.play {
+  height: 17px;
+}
+
+td {
+  white-space: nowrap;
+}
