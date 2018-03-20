@@ -1,3 +1,46 @@
+/* MEDIA QUERIES */
+@media (max-width: 750px) {
+  body#index div:nth-of-type(3) {
+    padding: 0 5% 0 0;
+  }
+  body#index div:nth-of-type(5) {
+    padding: 0 5% 20% 0;
+  }
+  body#index div:nth-of-type(7) {
+    padding: 0 5% 20% 0;
+  }
+  body#capsule main {
+    margin: 10% 5% 0 25%;
+    white-space: normal;
+  }
+  body#accordion div:nth-of-type(2n) {
+    margin: 15% 5% 15% 25%;
+    vertical-align: center;
+  }
+}
+
+/* @media (min-width: 992px) {
+  body#index div:nth-of-type(3) {
+    padding: 0 15% 0 0;
+  }
+
+  body#index div:nth-of-type(5) {
+    padding: 0 15% 20% 0;
+  }
+
+  body#index div:nth-of-type(7) {
+    padding: 0 15% 20% 0;
+  }
+  body#capsule main {
+    margin: 10% 25% 0 25%;
+    white-space: normal;
+  }
+  body#accordion div:nth-of-type(2n) {
+    margin: 15% 20% 15% 25%;
+    vertical-align: center;
+  }
+} */
+
 /* ABOUT CSS */
 
 body {
@@ -14,7 +57,7 @@ nav {
   font-family: 'Inconsolata', monospace;
   white-space: nowrap;
   -webkit-transform-origin: center;
-  -webkit-transform:rotate(-90deg) translateX(-100%);
+  -webkit-transform:rotate(-90deg) translateX(-15em);
   z-index: 10;
 }
 
@@ -76,8 +119,7 @@ h2 {
   color: #929DA6;
   font-size: 45px;
   text-decoration: none;
-  line-height: 0px;
-  margin: 0 0 20px 0;
+  margin: 0 0 -5px 0;
 }
 
 h3 {
@@ -104,11 +146,11 @@ body#index div:nth-of-type(3) {
 }
 
 body#index div:nth-of-type(5) {
-  padding: 0 15% 15% 0;
+  padding: 0 15% 20% 0;
 }
 
 body#index div:nth-of-type(7) {
-  padding: 0 15% 15% 0;
+  padding: 0 15% 20% 0;
 }
 
 img.play {
@@ -148,6 +190,11 @@ body#capsule div:nth-of-type(5){
 }
 */
 
+body#capsule main {
+  margin: 10% 25% 0 25%;
+  white-space: normal;
+}
+
 body#capsule h1 {
   font-family: din-condensed, sans-serif;
   font-style: normal;
@@ -186,13 +233,13 @@ img.preview {
   filter: saturate(1.2);
 }
 
-body#capsule main {
-  margin: 10% 20% 0 33%;
+/* body#capsule main {
+  margin: 10% 25% 0 25%;
   white-space: normal;
-}
+} */
 
 body#capsule div:nth-of-type(2n) {
-  margin: 30% 0 20% 0;
+  margin: 30% 0 25% 0;
 }
 
 body#capsule img#toplogo {
@@ -229,7 +276,6 @@ body#capsule div:nth-of-type(12) {
 }
 
 
-
 /* ACCORDION CSS */
 
 body#accordion nav {
@@ -239,7 +285,7 @@ body#accordion nav {
   font-family: 'Inconsolata', monospace;
   white-space: nowrap;
   -webkit-transform-origin: center;
-  -webkit-transform:rotate(-90deg) translateX(-100%);
+  -webkit-transform:rotate(-90deg) translateX(-15em);
   z-index: 10;
 }
 
@@ -261,11 +307,6 @@ body#accordion a {
   font-size: 17px;
 }
 
-body#accordion div:nth-of-type(2n) {
-  margin: 15% 20% 15% 33%;
-  vertical-align: center;
-}
-
 body#accordion a.acclink {
   font-family: "Karla", sans-serif;
   text-decoration: underline;
@@ -285,6 +326,11 @@ body#accordion h2 {
   font-size: 34px;
   letter-spacing: 1px;
   color: #4F3A4B
+}
+
+body#accordion div:nth-of-type(2n) {
+  margin: 15% 20% 15% 25%;
+  vertical-align: center;
 }
 
 body#accordion img#btmaccordion {
