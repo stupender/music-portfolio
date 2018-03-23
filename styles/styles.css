@@ -190,13 +190,6 @@ img.preview {
   filter: saturate(1.2);
 }
 
-img.studio {
-  width: 100%;
-  padding-top: 10px;
-  padding-bottom: 100px;
-  filter: saturate(1.2);
-}
-
 /* body#capsule main {
   margin: 10% 25% 0 25%;
   white-space: normal;
