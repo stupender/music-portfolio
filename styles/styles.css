@@ -141,7 +141,6 @@ body#capsule div:nth-of-type(1) {
 body#capsule div:nth-of-type(3){
   margin-right: -30%;
 }
-
 body#capsule div:nth-of-type(5){
   margin-right: -30%;
 }
@@ -309,27 +308,7 @@ body#accordion img#btmaccordion {
   body#index div:nth-of-type(7) {
     padding: 0 5% 20% 0;
   }
-  body#capsule div.box2 {
-    margin: 10% 5% 0 25%;
-    white-space: normal;
-  }
-  body#capsule div.box5 {
-    margin: 10% 5% 0 25%;
-    white-space: normal;
-  }
-  body#capsule div.box7 {
-    margin: 10% 5% 0 25%;
-    white-space: normal;
-  }
-  body#capsule div.box9 {
-    margin: 10% 5% 0 25%;
-    white-space: normal;
-  }
-  body#capsule div.box105 {
-    margin: 10% 5% 0 25%;
-    white-space: normal;
-  }
-  body#capsule div.box11 {
+  body#capsule main {
     margin: 10% 5% 0 25%;
     white-space: normal;
   }
@@ -343,11 +322,9 @@ body#accordion img#btmaccordion {
   body#index div:nth-of-type(3) {
     padding: 0 15% 0 0;
   }
-
   body#index div:nth-of-type(5) {
     padding: 0 15% 20% 0;
   }
-
   body#index div:nth-of-type(7) {
     padding: 0 15% 20% 0;
   }
