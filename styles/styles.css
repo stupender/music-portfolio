@@ -312,6 +312,10 @@ body#accordion img#btmaccordion {
     margin: 10% 5% 0 25%;
     white-space: normal;
   }
+  body#capsule img#toplogo {
+    width: 70%;
+    padding-bottom: 100px;
+  }
   body#accordion div:nth-of-type(2n) {
     margin: 15% 5% 15% 25%;
     vertical-align: center;
