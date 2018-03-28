@@ -365,14 +365,14 @@ body#accordion span.child {
   }
 }
 
-@media (max-height: 400px) {
+@media (max-height: 450px) {
   nav {
     width: 25%;
     position: fixed;
     font-family: 'Inconsolata', monospace;
     white-space: nowrap;
     -webkit-transform-origin: center;
-    -webkit-transform:rotate(-90deg) translateX(-8em);
+    -webkit-transform:rotate(-90deg) translateX(-10em);
     z-index: 10;
   }
 }
