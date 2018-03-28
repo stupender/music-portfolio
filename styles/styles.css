@@ -321,7 +321,7 @@ body#accordion div.parent {
   flex-wrap: wrap;
 }
 body#accordion span.child {
-    width: 80%;
+    width: 70%;
 }
 
 /* body#accordion div.parent {
