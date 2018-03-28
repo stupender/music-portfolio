@@ -45,7 +45,7 @@ main {
 
 img.homepic {
   width: 100%;
-  filter: saturate(1.2);
+  /* filter: saturate(1.2); */
 }
 
 p {
@@ -186,7 +186,7 @@ img.preview {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 100px;
-  filter: saturate(1.2);
+  /* filter: saturate(1.2); */
 }
 
 /* body#capsule main {
@@ -210,7 +210,7 @@ body#capsule img.typo {
   margin-right: auto;
   padding-top: 10px;
   padding-bottom: 100px;
-  filter: saturate(1.2);
+  /* filter: saturate(1.2); */
 }
 
 body#capsule img#btmcapsule {
@@ -251,7 +251,7 @@ body#accordion body {
 
 body#accordion img {
   width: 100%;
-  filter: saturate(1.2);
+  /* filter: saturate(1.2); */
 }
 
 body#accordion a {
