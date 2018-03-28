@@ -297,6 +297,49 @@ body#accordion img#btmaccordion {
   width: 120px;
 }
 
+/* body#accordion div.first {
+  margin: 0 66% 0 0;
+}
+body#accordion div.second {
+  margin: 0 33% 0 33%;
+}
+body#accordion div.third {
+  margin: 0 0 0 66%;
+} */
+
+/* body#accordion h2.stat {
+  font-size: 50px;
+} */
+
+body#accordion div.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+}
+body#accordion span.child {
+    width: 80%;
+}
+
+/* body#accordion div.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  align-content: center;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: nowrap;
+}
+
+body#accordion span.child {
+    width: 100px;
+} */
+
+
+
 /* MEDIA QUERIES */
 @media (max-width: 500px) {
   body#index div:nth-of-type(3) {
