@@ -369,6 +369,9 @@ body#accordion span.child {
     margin: 15% 5% 15% 25%;
     vertical-align: center;
   }
+  body#accordion nav {
+    margin: -7% 0 0 0;
+  }
 }
 
 @media (max-height: 450px) {
