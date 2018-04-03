@@ -11,19 +11,20 @@ body {
 nav {
   width: 25%;
   position: fixed;
-  font-family: 'Inconsolata', monospace;
   white-space: nowrap;
   -webkit-transform-origin: center;
-  -webkit-transform:rotate(-90deg) translateX(-15em);
+  -webkit-transform:rotate(-90deg) translateX(-18em);
   z-index: 10;
 }
 
 a {
   color: #929DA6;
-  font-family: 'Inconsolata', monospace;
-  font-weight: 400;
   text-decoration: none;
-  font-size: 17px;
+  font-family: 'Abel', sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 2px;
+  font-weight: 200;
 }
 
 a:hover {
@@ -35,7 +36,7 @@ a.pop {
   font-family: 'Rubik Mono One', sans-serif;
   color: #929DA6;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 main {
@@ -51,17 +52,19 @@ img.homepic {
 img.acpic {
   width: 100%;
   filter: saturate(1);
-
 }
 
 p {
-  font-family: 'Inconsolata', monospace;
-  font-weight: 400;
+  /* color: #929DA6; */
   color: #929DA6;
-  font-size: 17psx;
-  text-decoration: none;
-  margin-bottom: 3em;
+  font-family: 'Abel', sans-serif;
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: 2px;
+  font-weight: 200;
+  text-align: left;
 }
+
 
 body#index p.sound {
   margin: 3em 0 3em 0
@@ -70,29 +73,32 @@ body#index p.sound {
 h1 {
   font-family: 'Rubik Mono One', sans-serif;
   color: #929DA6;
-  font-size: 25px;
+  font-size: 28px;
   text-decoration: none;
   margin: 0px;
 }
 
 h2 {
-  font-family: 'Inconsolata', monospace;
-  font-weight: 400;
-  size: 40px;
   color: #929DA6;
-  font-size: 45px;
+  font-family: 'Abel', sans-serif;
+  font-size: 41px;
+  line-height: 48px;
+  letter-spacing: 1px;
+  font-weight: 200;
+
   text-decoration: none;
   margin: 0 0 -5px 0;
 }
 
 h3 {
-  font-family: 'Inconsolata', monospace;
-  font-weight: 400;
-  font-size: 40px;
   color: #929DA6;
-  font-size: 19px;
+  font-family: 'Abel', sans-serif;
+  font-size: 21px;
+  line-height: 23px;
+  letter-spacing: 1px;
+  font-weight: 200;
+
   text-decoration: none;
-  line-height: 17px;
   margin: 0px;
 }
 
@@ -128,7 +134,7 @@ body#capsule {
   background-color: #000000;
 }
 
-body#capsule a#caplink {
+body#capsule a.caplink {
   color: #FFFFFF;
   font-family: 'Abel', sans-serif;
   font-size: 21px;
@@ -142,15 +148,6 @@ body#capsule div:nth-of-type(1) {
   text-align: center;
   margin: 0 0 10% 0
 }
-
-/*
-body#capsule div:nth-of-type(3){
-  margin-right: -30%;
-}
-body#capsule div:nth-of-type(5){
-  margin-right: -30%;
-}
-*/
 
 body#capsule main {
   margin: 10% 25% 0 25%;
@@ -168,14 +165,11 @@ body#capsule h1 {
 }
 
 body#capsule h2 {
-  font-family: din-condensed, sans-serif;
-  font-style: normal;
-  font-weight: 300;
+  font-family: 'Rubik Mono One', sans-serif;
   color: #FFFFFF;
-  font-size: 34px;
-  line-height: 40px;
-  letter-spacing: 2.2px;
-
+  font-size: 28px;
+  text-decoration: none;
+  margin: 0px;
 }
 
 body#capsule p {
@@ -194,11 +188,6 @@ img.preview {
   padding-bottom: 100px;
   /* filter: saturate(1.1); */
 }
-
-/* body#capsule main {
-  margin: 10% 25% 0 25%;
-  white-space: normal;
-} */
 
 body#capsule div:nth-of-type(2n) {
   margin: 30% 0 25% 0;
@@ -237,6 +226,31 @@ body#capsule div:nth-of-type(12) {
   margin: 200px 0 100px 0
 }
 
+body#capsule h2.stat {
+  font-size: 60px;
+  line-height: 40px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+body#capsule p.stat {
+  margin-top: 0;
+  margin-bottom: 3em;
+}
+
+body#capsule div.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+}
+body#capsule span.child {
+    width: 50%;
+}
+
 
 /* ACCORDION CSS */
 
@@ -244,10 +258,9 @@ body#accordion nav {
   width: 25%;
   margin: 10% 0 0 0;
   position: fixed;
-  font-family: 'Inconsolata', monospace;
   white-space: nowrap;
   -webkit-transform-origin: center;
-  -webkit-transform:rotate(-90deg) translateX(-15em);
+  -webkit-transform:rotate(-90deg) translateX(-18em);
   z-index: 10;
 }
 
@@ -260,34 +273,42 @@ body#accordion img {
   /* filter: saturate(1.1); */
 }
 
+
 body#accordion a {
   color: #929DA6;
+  /* font-family: 'Inconsolata', monospace;
+  font-weight: 400; */
   text-decoration: none;
-  font-family: 'Inconsolata', monospace;
-  font-weight: 400;
-  text-decoration: none;
-  font-size: 17px;
+  /* font-size: 17px; */
+
+  font-family: 'Abel', sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 2px;
+  font-weight: 200;
 }
 
 body#accordion a.acclink {
-  font-family: "Karla", sans-serif;
+  color: #4F3A4B;
+  font-family: 'Abel', sans-serif;
   text-decoration: underline;
-  letter-spacing: 1px;
-  color: #4F3A4B
+  font-size: 21px;
+  line-height: 32px;
+  letter-spacing: 2px;
+  font-weight: 200;
+  text-align: left;
 }
 
 body#accordion p {
-  font-family: "Karla", sans-serif;
-  font-size: 18px;
-  letter-spacing: 1px;
   color: #4F3A4B
 }
 
 body#accordion h2 {
-  font-family: "Karla", sans-serif;
-  font-size: 34px;
-  letter-spacing: 1px;
-  color: #4F3A4B
+  font-family: 'Rubik Mono One', sans-serif;
+  color: #4F3A4B;
+  font-size: 28px;
+  text-decoration: none;
+  margin: 0px;
 }
 
 body#accordion div:nth-of-type(2n) {
@@ -303,19 +324,15 @@ body#accordion img#btmaccordion {
   width: 120px;
 }
 
-/* body#accordion div.first {
-  margin: 0 66% 0 0;
-}
-body#accordion div.second {
-  margin: 0 33% 0 33%;
-}
-body#accordion div.third {
-  margin: 0 0 0 66%;
-} */
-
-/* body#accordion h2.stat {
+body#accordion h2.stat {
   font-size: 50px;
-} */
+  line-height: 40px;
+  margin-bottom: 0;
+}
+
+body#accordion p.stat {
+  margin-top: 0;
+}
 
 body#accordion div.parent {
   display: flex;
@@ -327,24 +344,8 @@ body#accordion div.parent {
   flex-wrap: wrap;
 }
 body#accordion span.child {
-    width: 60%;
+    width: 50%;
 }
-
-/* body#accordion div.parent {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  align-content: center;
-  justify-content: space-between;
-  align-content: center;
-  flex-wrap: nowrap;
-}
-
-body#accordion span.child {
-    width: 100px;
-} */
-
-
 
 /* MEDIA QUERIES */
 @media (max-width: 500px) {
@@ -362,8 +363,30 @@ body#accordion span.child {
     white-space: normal;
   }
   body#capsule img#toplogo {
-    width: 70%;
+    width: -moz-available;
     padding-bottom: 100px;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+  }
+  body#capsule p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+  }
+  body#capsule a.caplink {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+  }
+  body#accordion a.acclink {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
   }
   body#accordion div:nth-of-type(2n) {
     margin: 15% 5% 15% 25%;
@@ -371,6 +394,16 @@ body#accordion span.child {
   }
   body#accordion nav {
     margin: -7% 0 0 0;
+  }
+  body#accordion nav {
+    width: 25%;
+    margin: 10% 0 0 0;
+    position: fixed;
+    /* font-family: 'Inconsolata', monospace; */
+    white-space: nowrap;
+    -webkit-transform-origin: center;
+    -webkit-transform:rotate(-90deg) translateX(-18em);
+    z-index: 10;
   }
 }
 
@@ -386,23 +419,46 @@ body#accordion span.child {
   }
 }
 
+@media (min-width: 1200px) {
+  nav {
+    width: 25%;
+    position: fixed;
+    font-family: 'Inconsolata', monospace;
+    white-space: nowrap;
+    -webkit-transform-origin: center;
+    -webkit-transform:rotate(-90deg) translateX(-16.5em);
+    z-index: 10;
+  }
+  body#accordion nav {
+    width: 25%;
+    margin: 10% 0 0 0;
+    position: fixed;
+    /* font-family: 'Inconsolata', monospace; */
+    white-space: nowrap;
+    -webkit-transform-origin: center;
+    -webkit-transform:rotate(-90deg) translateX(-16.5em);
+    z-index: 10;
+  }
+}
 
-/* @media (min-width: 992px) {
-  body#index div:nth-of-type(3) {
-    padding: 0 15% 0 0;
+@media (min-width: 1500px) {
+  nav {
+    width: 25%;
+    position: fixed;
+    font-family: 'Inconsolata', monospace;
+    white-space: nowrap;
+    -webkit-transform-origin: center;
+    -webkit-transform:rotate(-90deg) translateX(-6em);
+    z-index: 10;
   }
-  body#index div:nth-of-type(5) {
-    padding: 0 15% 20% 0;
+  body#accordion nav {
+    width: 25%;
+    margin: 10% 0 0 0;
+    position: fixed;
+    /* font-family: 'Inconsolata', monospace; */
+    white-space: nowrap;
+    -webkit-transform-origin: center;
+    -webkit-transform:rotate(-90deg) translateX(-6em);
+    z-index: 10;
   }
-  body#index div:nth-of-type(7) {
-    padding: 0 15% 20% 0;
-  }
-  body#capsule main {
-    margin: 10% 25% 0 25%;
-    white-space: normal;
-  }
-  body#accordion div:nth-of-type(2n) {
-    margin: 15% 20% 15% 25%;
-    vertical-align: center;
-  }
-} */
+}
