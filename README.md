@@ -1,2 +1,2 @@
 # stupender.github.io
-This is a portfolio showcasing my design work.
+This is a portfolio showcasing my music.
