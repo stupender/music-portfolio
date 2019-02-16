@@ -23,7 +23,7 @@ a {
   font-family: 'Abel', sans-serif;
   font-size: 18px;
   line-height: 32px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-weight: 200;
 }
 
@@ -58,7 +58,7 @@ p {
   /* color: #929DA6; */
   color: #929DA6;
   font-family: 'Abel', sans-serif;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 25px;
   letter-spacing: 1px;
   font-weight: 200;
@@ -110,6 +110,10 @@ body#index div:nth-of-type(2n) {
   padding: 10% 0 10% 0;
 }
 
+body#collaborations div:nth-of-type(2n) {
+  padding: 10% 0 30% 0;
+}
+
 body#index div:nth-of-type(3) {
   padding: 0 15% 20% 0;
 }
@@ -118,7 +122,7 @@ body#collaborations div:nth-of-type(5) {
   padding: 0 15% 20% 0;
 }
 
-body#index div:nth-of-type(7) {
+body#solo div:nth-of-type(2) {
   padding: 0 15% 20% 0;
 }
 
@@ -164,7 +168,17 @@ img.play {
     -webkit-transform:rotate(-90deg) translateX(-16.5em);
     z-index: 10;
   }
-
+/*
+  @media (min-height: 1000px) {
+    nav {
+      width: 25%;
+      position: fixed;
+      font-family: 'Inconsolata', monospace;
+      white-space: nowrap;
+      -webkit-transform-origin: center;
+      -webkit-transform:rotate(-90deg) translateX(-4em);
+      z-index: 10;
+    } */
 
   body#accordion nav {
     width: 25%;
