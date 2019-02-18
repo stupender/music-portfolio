@@ -52,7 +52,7 @@ main {
 
 img.homepic {
   width: 100%;
-  filter: saturate(1.1);
+  /* filter: saturate(1.1); */
 }
 
 img.acpic {
