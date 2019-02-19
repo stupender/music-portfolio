@@ -28,8 +28,8 @@ a {
 }
 
 a:hover {
-  /* color: #FF7F5D; */
-  color: #353535;
+  color: #FF9381;
+  /* color: #353535; */
   font-weight: 400;
 }
 
@@ -41,8 +41,8 @@ a.pop {
 }
 
 a.pop:hover {
-  /* color: #FF7F5D; */
-  color: #353535;
+  color: #FF9381;
+  /* color: #353535; */
 }
 
 main {
