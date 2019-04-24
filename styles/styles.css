@@ -132,6 +132,10 @@ body#index div:nth-of-type(3n) {
 }
 
 body#collaborations div:nth-of-type(5n) {
+  padding: 0 0 10% 0;
+}
+
+body#collaborations div:nth-of-type(6n) {
   padding: 0 0 20% 0;
 }
 
