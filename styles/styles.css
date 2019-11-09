@@ -27,6 +27,10 @@ a {
   font-weight: 200;
 }
 
+a.intext {
+  line-height: 25px;
+}
+
 a:hover {
   color: #FF9381;
   /* color: #353535; */
