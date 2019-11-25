@@ -27,6 +27,16 @@ a {
   font-weight: 200;
 }
 
+a.p {
+  color: #929DA6;
+  font-family: 'Abel', sans-serif;
+  font-size: 18px;
+  line-height: 10px;
+  letter-spacing: 1px;
+  font-weight: 200;
+  text-align: left;
+}
+
 a.intext {
   line-height: 25px;
 }
