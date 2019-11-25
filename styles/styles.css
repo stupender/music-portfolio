@@ -8,13 +8,57 @@ body {
 	vertical-align: baseline;
 }
 
-nav {
+/* nav {
   width: 25%;
   position: fixed;
   white-space: nowrap;
   -webkit-transform-origin: center;
   -webkit-transform:rotate(-90deg) translateX(-18em);
   z-index: 10;
+} */
+
+
+nav.header {
+    margin: 35px auto 0;
+    text-align: center;
+}
+.post__footer ul:first-child li:first-child, nav li:first-child {
+    margin-left: 0
+}
+li.custom-like-button, nav li {
+    display: inline-block
+}
+.page-permalink nav.header {
+    display: none
+}
+.nav, .hamburger {
+    display: block
+}
+nav.header {
+    width: initial;
+    position: fixed;
+    -webkit-transform: rotate(-90deg) translateX(-50%);
+    -ms-transform: rotate(-90deg) translateX(-50%);
+    transform: rotate(-90deg) translateX(-50%);
+    margin: 0;
+    top: 50%;
+    left: 10%;
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+}
+nav.header > ul {
+    width: 90vh;
+}
+
+
+
+ul {
+  color: #929DA6;
+  font-family: 'Abel', sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  font-weight: 200;
 }
 
 a {
@@ -102,7 +146,7 @@ h1 {
 h5 {
   font-family: 'Rubik Mono One', sans-serif;
   color: #929DA6;
-  font-size: 21px;
+  font-size: 20px;
   text-decoration: none;
   margin: 0px;
 }
@@ -176,146 +220,26 @@ img.play {
 
 
 
+@media (max-width: 414px) {
+  nav.header {
+    left: 5%;
+  }
 
-
-@media (max-height: 450px) {
-  nav {
-    width: 25%;
-    position: fixed;
-    font-family: 'Inconsolata', monospace;
-    white-space: nowrap;
-    -webkit-transform-origin: center;
-    -webkit-transform:rotate(-90deg) translateX(-10.75em);
-    z-index: 10;
+}
+@media (max-width: 667px) {
+  nav.header {
+    left: 3%;
   }
 }
-
-@media (min-height: 450px) {
-  nav {
-    width: 25%;
-    position: fixed;
-    font-family: 'Inconsolata', monospace;
-    white-space: nowrap;
-    -webkit-transform-origin: center;
-    -webkit-transform:rotate(-90deg) translateX(-24em);
-    z-index: 10;
-  }
-}
-
-@media (min-width: 1200px) {
-  nav {
-    width: 25%;
-    position: fixed;
-    font-family: 'Inconsolata', monospace;
-    white-space: nowrap;
-    -webkit-transform-origin: center;
-    -webkit-transform:rotate(-90deg) translateX(-16.5em);
-    z-index: 10;
-  }
-/*
-  @media (min-height: 1000px) {
-    nav {
-      width: 25%;
-      position: fixed;
-      font-family: 'Inconsolata', monospace;
-      white-space: nowrap;
-      -webkit-transform-origin: center;
-      -webkit-transform:rotate(-90deg) translateX(-4em);
-      z-index: 10;
-    } */
-
-  body#accordion nav {
-    width: 25%;
-    margin: 10% 0 0 0;
-    position: fixed;
-    /* font-family: 'Inconsolata', monospace; */
-    white-space: nowrap;
-    -webkit-transform-origin: center;
-    -webkit-transform:rotate(-90deg) translateX(-16.5em);
-    z-index: 10;
+@media (max-width: 568px) {
+  nav.header {
+    left: 2%;
   }
 }
 
 
-
-@media (min-width: 300px) {
-  nav {
-    width: 25%;
-    position: fixed;
-    font-family: 'Inconsolata', monospace;
-    white-space: nowrap;
-    -webkit-transform-origin: center;
-    -webkit-transform:rotate(-90deg) translateX(-19em);
-    z-index: 10;
+/* @media (max-width: 900px) {
+  nav.header {
+    left: 8%;
   }
-
-
-@media (min-width: 600px) {
-  nav {
-    width: 25%;
-    position: fixed;
-    font-family: 'Inconsolata', monospace;
-    white-space: nowrap;
-    -webkit-transform-origin: center;
-    -webkit-transform:rotate(-90deg) translateX(-22em);
-    z-index: 10;
-  }
-
-@media (min-width: 800px) {
-  nav {
-    width: 25%;
-    position: fixed;
-    font-family: 'Inconsolata', monospace;
-    white-space: nowrap;
-    -webkit-transform-origin: center;
-    -webkit-transform:rotate(-90deg) translateX(-20em);
-    z-index: 10;
-  }
-
-@media (min-width: 1000px) {
-  nav {
-    width: 25%;
-    position: fixed;
-    font-family: 'Inconsolata', monospace;
-    white-space: nowrap;
-    -webkit-transform-origin: center;
-    -webkit-transform:rotate(-90deg) translateX(-16em);
-    z-index: 10;
-  }
-
-  @media (min-width: 1250px) {
-    nav {
-      width: 25%;
-      position: fixed;
-      font-family: 'Inconsolata', monospace;
-      white-space: nowrap;
-      -webkit-transform-origin: center;
-      -webkit-transform:rotate(-90deg) translateX(-13em);
-      z-index: 10;
-    }
-
-@media (min-width: 1500px) {
-  nav {
-    width: 25%;
-    position: fixed;
-    font-family: 'Inconsolata', monospace;
-    white-space: nowrap;
-    -webkit-transform-origin: center;
-    -webkit-transform:rotate(-90deg) translateX(-8em);
-    z-index: 10;
-  }
-
-
-
-
-  body#accordion nav {
-    width: 25%;
-    margin: 10% 0 0 0;
-    position: fixed;
-    /* font-family: 'Inconsolata', monospace; */
-    white-space: nowrap;
-    -webkit-transform-origin: center;
-    -webkit-transform:rotate(-90deg) translateX(-6em);
-    z-index: 10;
-  }
-}
+} */
