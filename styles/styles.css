@@ -54,6 +54,17 @@ main {
   white-space: normal;
 }
 
+img {
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+filter: grayscale(100%); /* FF 35+ */
+}
+
+img:hover {
+  transition: filter .2s ease-in-out;
+-webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+filter: grayscale(0%); /* FF 35+ */
+}
+
 img.homepic {
   width: 100%;
   /* filter: saturate(1.1); */
@@ -84,6 +95,14 @@ h1 {
   font-family: 'Rubik Mono One', sans-serif;
   color: #929DA6;
   font-size: 32px;
+  text-decoration: none;
+  margin: 0px;
+}
+
+h5 {
+  font-family: 'Rubik Mono One', sans-serif;
+  color: #929DA6;
+  font-size: 21px;
   text-decoration: none;
   margin: 0px;
 }
@@ -218,6 +237,7 @@ img.play {
 }
 
 
+
 @media (min-width: 300px) {
   nav {
     width: 25%;
@@ -284,6 +304,10 @@ img.play {
     -webkit-transform:rotate(-90deg) translateX(-8em);
     z-index: 10;
   }
+
+
+
+
   body#accordion nav {
     width: 25%;
     margin: 10% 0 0 0;
