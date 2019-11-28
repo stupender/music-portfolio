@@ -144,9 +144,10 @@ body#index p.sound {
 h1 {
   font-family: 'Rubik Mono One', sans-serif;
   color: #929DA6;
-  font-size: 31px;
+  font-size: 32px;
   text-decoration: none;
   margin: 0px;
+  font-weight: 400;
 }
 
 h5 {
@@ -245,16 +246,24 @@ img.play {
   nav.header {
     left: 5%;
   }
-
+  h1 {
+    font-size: 32px;
+  }
 }
 @media (max-width: 667px) {
   nav.header {
     left: 3%;
   }
+  h1 {
+    font-size: 32px;
+  }
 }
 @media (max-width: 568px) {
   nav.header {
     left: 4%;
+  }
+  h1 {
+    font-size: 32px;
   }
 }
 
