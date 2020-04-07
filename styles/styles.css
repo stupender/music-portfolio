@@ -67,6 +67,10 @@ li.credits {
   display: block;
 }
 
+li.lessons {
+  margin-bottom: 10px;
+}
+
 a {
   color: #929DA6;
   text-decoration: none;
