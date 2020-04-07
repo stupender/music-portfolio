@@ -109,6 +109,16 @@ img {
 filter: grayscale(100%); /* FF 35+ */
 }
 
+img.sig {
+  width: 13%;
+  padding: 5% 0 0 0;
+}
+
+img.sig2 {
+  width: 13%;
+  padding: 0 0 0 5%;
+  position: fixed;
+}
 
 img:hover {
   transition: filter .2s ease-in-out;
@@ -269,6 +279,10 @@ img.play {
   }
   h1 {
     font-size: 32px;
+  }
+  img.sig {
+    width: 20%;
+    padding: 5% 0 0 0;
   }
 }
 @media (max-width: 568px) {
