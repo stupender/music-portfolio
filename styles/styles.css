@@ -109,6 +109,7 @@ img {
 filter: grayscale(100%); /* FF 35+ */
 }
 
+
 img:hover {
   transition: filter .2s ease-in-out;
 -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
@@ -275,7 +276,16 @@ img.play {
     left: 4%;
   }
   h1 {
-    font-size: 32px;
+    font-size: 26px;
+  }
+}
+
+@media (max-height: 400px) {
+  ul.nav {
+    font-size: 14px;
+  }
+  a.navitem {
+    font-size: 14px;
   }
 }
 
