@@ -105,7 +105,7 @@ a.pop:hover {
 
 /* top margin was set at 10% originally */
 main {
-  margin: 0 0 0 25%;
+  margin: 10% 0 0 25%;
   white-space: normal;
 }
 
@@ -126,7 +126,7 @@ img.lessonpic {
 
 img.homepic {
   width: 100%;
-  /* -webkit-filter: grayscale(100%); 
+  /* -webkit-filter: grayscale(100%);
   filter: grayscale(100%);  */
 }
 
