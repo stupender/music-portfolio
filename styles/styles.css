@@ -103,14 +103,10 @@ a.pop:hover {
   /* color: #353535; */
 }
 
+/* top margin was set at 10% originally */
 main {
-  margin: 10% 0 0 25%;
+  margin: 0 0 0 25%;
   white-space: normal;
-}
-
-img {
-  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-filter: grayscale(100%); /* FF 35+ */
 }
 
 img.sig {
@@ -124,15 +120,20 @@ img.sig2 {
   position: fixed;
 }
 
-img:hover {
-  transition: filter .2s ease-in-out;
--webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-filter: grayscale(0%); /* FF 35+ */
+img.lessonpic {
+  width: 100%;
 }
 
 img.homepic {
   width: 100%;
-  /* filter: saturate(1.1); */
+  /* -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);  */
+}
+
+img.homepic:hover {
+  transition: filter .2s ease-in-out;
+-webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+filter: grayscale(0%); /* FF 35+ */
 }
 
 img.acpic {
