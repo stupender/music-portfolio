@@ -69,6 +69,7 @@ li.credits {
 
 li.lessons {
   margin-bottom: 10px;
+  display: block;
 }
 
 a {
