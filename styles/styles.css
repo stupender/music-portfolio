@@ -325,6 +325,10 @@ img.play {
   h1 {
     font-size: 26px;
   }
+  img.sig {
+    width: 25%;
+    padding: 5% 0 0 0;
+  }
 }
 
 @media (max-height: 400px) {
@@ -333,6 +337,10 @@ img.play {
   }
   a.navitem {
     font-size: 14px;
+  }
+  img.sig {
+    width: 30%;
+    padding: 5% 0 0 0;
   }
 }
 
