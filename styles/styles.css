@@ -86,6 +86,10 @@ a.intext {
   line-height: 25px;
 }
 
+a.currentnav {
+  color: #FF9381;
+}
+
 a:hover {
   color: #FF9381;
   /* color: #353535; */
@@ -336,6 +340,9 @@ img.play {
     font-size: 14px;
   }
   a.navitem {
+    font-size: 14px;
+  }
+  a.currentnav {
     font-size: 14px;
   }
   img.sig {
