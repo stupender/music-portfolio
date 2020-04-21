@@ -261,7 +261,11 @@ body#collaborations div:nth-of-type(2) {
 }
 
 body#collaborations div:nth-of-type(4) {
-  padding: 5% 0% 20% 0;
+  padding: 5% 3% 20% 0;
+}
+
+body#collaborations div:nth-of-type(5) {
+  padding: 0% 0% 0% 0;
 }
 
 body#collaborations div:nth-of-type(6) {
