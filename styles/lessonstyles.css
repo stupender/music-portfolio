@@ -1,0 +1,136 @@
+body {
+  background-color: #FCFBFA;
+  margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+  padding: 10% 0 0 0;
+}
+
+nav {
+  padding: 0 10% 10% 10%;
+}
+
+nav.topnav {
+  padding: 0 10% 0 10%;
+}
+
+.titlebox {
+  padding: 0 10% 5% 10%;
+}
+
+.textbox {
+  padding: 0 10% 5% 10%;
+}
+
+.imagebox {
+  padding: 0 0% 5% 0%;
+}
+
+.captextbox {
+  padding: 0 10% 0 10%;
+}
+
+.capimagebox {
+  padding: 0% 0% 5% 0%;
+}
+
+
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  text-align: left;
+}
+
+p.italic {
+  font-style: italic;
+  font-weight: 200;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+
+a:hover {
+  color: #FF9381;
+  font-weight: 400;
+}
+
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: left;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 200;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+}
+
+img.musicstaff {
+  width: 100%;
+  /* padding: 5% 0 0 0; */
+}
+
+ul.navlist {
+  list-style-type: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+li.navitem {
+  display: inline;
+  padding: 0 10% 0 0
+}
+
+
+
+/* @media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1F2022;
+  }
+  p {
+    color: #B1BFC7;
+  }
+  a {
+    color: #B1BFC7;
+  }
+  a:hover {
+  }
+  h1 {
+    color: #B1BFC7;
+  }
+  h2 {
+    color: #B1BFC7;
+  }
+  h3 {
+    color: #B1BFC7;
+  }
+
+li {
+  color: #B1BFC7;
+}
+  img.musicstaff {
+    filter: invert(85%);
+  }
+} */
