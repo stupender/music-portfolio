@@ -105,32 +105,32 @@ li.navitem {
 
 
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   body {
     background-color: #1F2022;
   }
   p {
-    color: #B1BFC7;
+    color: #D9D9D9;
   }
   a {
-    color: #B1BFC7;
+    color: #D9D9D9;
   }
   a:hover {
   }
   h1 {
-    color: #B1BFC7;
+    color: #D9D9D9;
   }
   h2 {
-    color: #B1BFC7;
+    color: #D9D9D9;
   }
   h3 {
-    color: #B1BFC7;
+    color: #D9D9D9;
   }
 
 li {
-  color: #B1BFC7;
+  color: #D9D9D9;
 }
   img.musicstaff {
     filter: invert(85%);
   }
-} */
+}
