@@ -176,3 +176,13 @@ li {
     filter: invert(85%);
   }
 }
+
+@media (max-width: 568px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 23px;
+  }
+
+}
