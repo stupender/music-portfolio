@@ -45,7 +45,7 @@ p {
 }
 
 p.italic {
-  font-style: italic;
+  /* font-style: italic; */
   font-weight: 200;
 }
 
@@ -64,7 +64,7 @@ a.email {
   border-style: solid;
   border-width: 2px;
   border-color: black;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
 
   /* display: block;
   margin-left: auto;
@@ -92,7 +92,7 @@ h1 {
   font-size: 40px;
   font-weight: 900;
   text-align: left;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
 }
 
 h2 {
@@ -102,7 +102,7 @@ h2 {
   text-align: left;
   margin-top: 0;
   margin-bottom: 0;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
 }
 
 h3 {
@@ -110,7 +110,7 @@ h3 {
   font-size: 18px;
   font-weight: 700;
   text-align: left;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
 }
 
 img.musicstaff {
