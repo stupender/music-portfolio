@@ -58,9 +58,14 @@ a {
   text-align: left;
 }
 
+a.email {
+  font-weight: 400;
+  text-decoration: underline;
+}
+
 a:hover {
   color: #FF9381;
-  font-weight: 400;
+  /* font-weight: 400; */
 }
 
 
