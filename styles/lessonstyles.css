@@ -63,7 +63,7 @@ a.email {
   padding: 6px 10px 6px 10px;
   border-style: solid;
   border-width: 2px;
-  border-color: #FCFBFA;
+  border-color: black;
 }
 
 a:hover {
@@ -123,6 +123,9 @@ li.navitem {
   }
   a {
     color: #D9D9D9;
+  }
+  a.email {
+    border-color: #FCFBFA;
   }
   a:hover {
   }
