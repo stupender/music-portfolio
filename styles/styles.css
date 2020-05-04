@@ -52,7 +52,7 @@ nav.header > ul {
 
 
 ul {
-  color: #929DA6;
+  color: #989898;
   font-family: 'Abel', sans-serif;
   font-size: 18px;
   line-height: 25px;
@@ -73,7 +73,7 @@ li.lessons {
 }
 
 a {
-  color: #929DA6;
+  color: #989898;
   text-decoration: none;
   font-family: 'Abel', sans-serif;
   font-size: 18px;
@@ -98,7 +98,7 @@ a:hover {
 
 a.pop {
   font-family: 'Rubik Mono One', sans-serif;
-  color: #929DA6;
+  color: #989898;
   text-decoration: none;
   font-size: 20px;
 }
@@ -179,8 +179,8 @@ img.acpic {
 }
 
 p {
-  /* color: #929DA6; */
-  color: #929DA6;
+  /* color: #989898; */
+  color: #989898;
   font-family: 'Abel', sans-serif;
   font-size: 18px;
   line-height: 25px;
@@ -196,7 +196,7 @@ body#index p.sound {
 
 h1 {
   font-family: 'Rubik Mono One', sans-serif;
-  color: #929DA6;
+  color: #989898;
   font-size: 33px;
   text-decoration: none;
   margin: 0px;
@@ -205,14 +205,14 @@ h1 {
 
 h5 {
   font-family: 'Rubik Mono One', sans-serif;
-  color: #929DA6;
+  color: #989898;
   font-size: 20px;
   text-decoration: none;
   margin: 0px;
 }
 
 h2 {
-  color: #929DA6;
+  color: #989898;
   font-family: 'Abel', sans-serif;
   font-size: 46.5px;
   line-height: 55px;
@@ -224,7 +224,7 @@ h2 {
 }
 
 h3 {
-  color: #929DA6;
+  color: #989898;
   font-family: 'Abel', sans-serif;
   font-size: 18px;
   line-height: 23px;
@@ -237,7 +237,8 @@ h3 {
 
 h4 {
   font-family: 'Rubik Mono One', sans-serif;
-  color: #929DA6;
+  color: #989898;
+  /* color: #929DA6; */
   text-decoration: none;
   font-size: 20px;
 }
