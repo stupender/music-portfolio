@@ -17,7 +17,6 @@ html, body, #a {
     /* margin: 7% 7% 7% 7%; */
     padding: 3% 3% 3% 3%;
 
-
     text-align: center;
     vertical-align: middle;
 }
@@ -31,8 +30,8 @@ html, body, #a {
 
 img {
   width: 100%;
-  border-width: 1px;
-  border-style: solid;
+  /* border-width: 1px;
+  border-style: solid; */
 }
 
 img.sig {
