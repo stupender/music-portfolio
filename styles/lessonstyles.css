@@ -35,7 +35,9 @@ nav.topnav {
   padding: 0% 0% 5% 0%;
 }
 
-
+li {
+  line-height: 28px;
+}
 
 p {
   font-family: 'Montserrat', sans-serif;
