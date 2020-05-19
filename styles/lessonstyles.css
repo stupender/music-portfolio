@@ -127,6 +127,8 @@ h3 {
 
 img.musicstaff {
   width: 100%;
+  image-orientation: from-image;
+
   /* padding: 5% 0 0 0; */
 }
 
