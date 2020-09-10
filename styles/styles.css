@@ -247,7 +247,6 @@ li.bigpic {
   height: auto;
 }
 
-
 body#index div:nth-of-type(1) {
   padding: 0 0 0 0;
 }
@@ -255,7 +254,6 @@ body#index div:nth-of-type(1) {
 body#index div:nth-of-type(2) {
   padding: 5% 3% 10% 0;
 }
-
 
 body#collaborations div:nth-of-type(2) {
   padding: 5% 3% 20% 0;
@@ -301,17 +299,13 @@ body#lessons div:nth-of-type(1) {
   padding: 0% 0% 0% 0;
 }
 
-body#lessons div:nth-of-type(2) {
-  padding: 5% 0% 0 0;
-}
-
-body#lessons div:nth-of-type(3) {
-  padding: 0% 3% 10% 0;
-}
-
 
 img.play {
   height: 17px;
+}
+
+body div:last-of-type {
+  padding: 5% 3% 10% 0;
 }
 
 
