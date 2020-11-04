@@ -297,6 +297,10 @@ body#solo div:nth-of-type(5) {
   padding: 0 0 10% 0;
 }
 
+body#solo div:nth-of-type(6) {
+  padding: 0 0 10% 0;
+}
+
 body#lessons div:nth-of-type(1) {
   padding: 0% 0% 0% 0;
 }
