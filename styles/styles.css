@@ -250,74 +250,119 @@ li.bigpic {
   height: auto;
 }
 
-body#index div:nth-of-type(1) {
-  padding: 0 0 0 0;
+div.picture-div {
+  padding: 0% 0% 0% 0%;
 }
 
-body#index div:nth-of-type(2) {
+div.text-div {
   padding: 5% 3% 10% 0;
 }
-
-body#collaborations div:nth-of-type(2) {
-  padding: 5% 3% 20% 0;
-}
-
-body#collaborations div:nth-of-type(4) {
-  padding: 5% 3% 20% 0;
-}
-
-body#collaborations div:nth-of-type(5) {
-  padding: 0% 0% 0% 0;
-}
-
-body#collaborations div:nth-of-type(6) {
-  padding: 5% 3% 10% 0;
-}
-
-/* body#collaborations div:nth-of-type(7) {
-  padding: 0 3% 10% 0;
-}
-
-body#collaborations div:nth-of-type(8) {
-  padding: 0 3% 10% 0;
-} */
-
-body#solo div:nth-of-type(2) {
-  padding: 5% 3% 10% 0;
-}
-
-body#solo div:nth-of-type(3) {
-  padding: 0 0 0 0;
-}
-
-body#solo div:nth-of-type(4) {
-  padding: 5% 3% 10% 0;
-}
-
-body#solo div:nth-of-type(5) {
-  padding: 0 0 10% 0;
-}
-
-body#solo div:nth-of-type(6) {
-  padding: 0 0 10% 0;
-}
-
-body#lessons div:nth-of-type(1) {
-  padding: 0% 0% 0% 0;
-}
-
-body#lessons div:nth-of-type(2) {
-  padding: 5% 3% 10% 0;
-}
-
 
 img.play {
   height: 17px;
 }
 
-/* body div:last-of-type {
-  padding: 5% 3% 10% 0;
-} */
+
+
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  padding-right: 0;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0px;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 0px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.6);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
 
 
 
