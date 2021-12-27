@@ -8,19 +8,9 @@
   <link href="https://fonts.googleapis.com/css?family=Abel|Inconsolata|Karla|Rubik+Mono+One" rel="stylesheet">
   <title>Lessons — Stu Pender</title>
   <script language="JavaScript" src="scripts/gen_validatorv31.js" type="text/javascript"></script>
+  <script src="javascript/script.js"></script>
   <link rel="icon" type="image/jpeg" href="images/sig.png"/>
-  <script type="text/javascript"> adroll_adv_id = "T2VR3DRORJHE5P3DIM2AAF"; adroll_pix_id = "RNHPIT5OSREF5PBG4SBYR5"; adroll_version = "2.0";  (function(w, d, e, o, a) { w.__adroll_loaded = true; w.adroll = w.adroll || []; w.adroll.f = [ 'setProperties', 'identify', 'track' ]; var roundtripUrl = "https://s.adroll.com/j/" + adroll_adv_id + "/roundtrip.js"; for (a = 0; a < w.adroll.f.length; a++) { w.adroll[w.adroll.f[a]] = w.adroll[w.adroll.f[a]] || (function(n) { return function() { w.adroll.push([ n, arguments ]) } })(w.adroll.f[a]) }  e = d.createElement('script'); o = d.getElementsByTagName('script')[0]; e.async = 1; e.src = roundtripUrl; o.parentNode.insertBefore(e, o); })(window, document); adroll.track("pageView"); </script> 
-  <!-- Hotjar Tracking Code for https://pender.co/lessons -->
-  <script>
-      (function(h,o,t,j,a,r){
-          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-          h._hjSettings={hjid:2716700,hjsv:6};
-          a=o.getElementsByTagName('head')[0];
-          r=o.createElement('script');r.async=1;
-          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-          a.appendChild(r);
-      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-  </script>
+
   <meta property="og:title" content="Guitar Lessons — Stu Pender" />
   <meta property="og:image" content="http://pender.co/images/lesson.jpeg" />
 
@@ -34,32 +24,44 @@
         <a href="index.html" class="navitem">Contact</a>    /
       </li>
       <li>
-        <a href="lessons.html" class="currentnav">Lessons</a>    /
+        <a href="solo.html" class="navitem">Works</a>    /
       </li>
       <li>
-        <a href="solo.html" class="navitem">Work</a>    /
+        <a href="collaborations.html" class="navitem">Collaborations</a>    /
       </li>
       <li>
-        <a href="collaborations.html" class="navitem">Collaborations</a>
+        <a href="https://penderguitar.studio" target="_blank" class="currentnav">Lessons</a>
       </li>
+
     </ul>
   </nav>
 
   <main>
-    <!-- <div class="box1">
-      <h1>Guitar & Songwriting Online Course</h1>
-      <h3><a href="mailto:stu_pender@me.com" target="_blank">Stu Pender / Brooklyn, NY</a></h3>
-    </div> -->
 
-    <div class="box2">
-        <img src="images/lesson.jpeg" class="lessonpic">
+    <div class="box2 picture-div">
+
+      <!-- IMAGE CAROUSEL -->
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="images/lesson.jpeg" class="lessonpic">
+        </div>
+        <div class="mySlides fade">
+          <img src="images/lesson3.jpeg" class="lessonpic">
+        </div>
+          <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+      </div>
+      <br>
+
     </div>
-<!--
-    <div class="box1">
-      <h1>Guitar & Songwriting:</h1><h1>Remote Course</h1>
-    </div> -->
 
-    <div class="box3">
+
+    <div class="box3 text-div">
       <p>
         <ul class="credits">
           <li class="lessons">
@@ -78,7 +80,7 @@
             • Written & video reference material included
           </li>
           <li class="lessons">
-            • Lessons will be held remotely
+            • Lessons will be held remotely for the time being
           </li>
           <li class="lessons">
             • Contact below for rates & registration
